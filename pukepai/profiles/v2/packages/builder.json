@@ -26,8 +26,8 @@
         "progress": 1,
         "state": "success",
         "stage": "build",
-        "message": "2025-9-18 21:53:03 build -> run success in 14 s!",
-        "detailMessage": "// ---- build task wechatgame：onBeforeCompressSettings ----\r",
+        "message": "2025-9-19 13:45:54 build -> run success in 14 s!",
+        "detailMessage": "builder:build-project-total (13950ms)\r",
         "options": {
           "name": "pukepai",
           "server": "",
@@ -96,7 +96,7 @@
             ]
           }
         },
-        "time": "2025-9-18 21:52:48",
+        "time": "2025-9-19 13:45:40",
         "dirty": false
       }
     }

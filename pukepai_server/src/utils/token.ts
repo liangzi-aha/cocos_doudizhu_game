@@ -1,7 +1,7 @@
 // 封装生成token，解析token方法
 import * as jwt from 'jsonwebtoken';
 // 配置jsonwebtoken生成token所需的secret，secret为加密密钥，不能泄露给其他人使用。
-const secret = '李勇良';
+const secret = 'secret';
 
 export const create = (obj) => {
   if (obj) {

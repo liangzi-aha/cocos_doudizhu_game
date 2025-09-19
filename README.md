@@ -39,6 +39,7 @@
 
   - 打包目录为 pukepai_server/puke_server 下
   - 进入 pukepai_server/puke_server 目录执行 node index.js 启动打包之后的 node 服务
+  - 可以直接复制这个文件夹放到服务器中安装依赖，然后启动 node 服务即可
 
 # 3、运行客户端
 
@@ -60,7 +61,7 @@
 - 打包之后打开微信小游戏，勾选不校验合法域名（因为调用本地接口）
   ![alt text](image-8.png)
 
-# 6、斗地主游戏功能（游戏可能有 bug，第一个版本没有测试）
+# 6、斗地主游戏功能（demo 可能有 bug）
 
 - 匹配模式：全部玩家进行匹配，至少 3 个人开始对局
   ![alt text](image-9.png)
@@ -69,8 +70,17 @@
 - 游戏对局：包含抢地主、加倍、明牌、机器人托管、断线重连等功能
   ![alt text](image-11.png)
 
-# 7、微信登录功能
+# 7、微信功能
+
+- #### 微信登录功能
 
 - 在 pukepai_server\src\router\wx_login.ts 目录下，修改 appid、appsecret 修改为自己微信小游戏的 appid、appsecret
   ![alt text](image-12.png)
 - 修改之后就可以调用微信登录功能了
+
+- #### 微信分享房间功能
+- 在 pukepai\assets\Script\RoomScene\RoomScene.ts 目录下，wxShare 方法中修改图片路径（默认图片使用的是 pukepai_server 中 pukepai_server\static\images\roomShare.png 图片）
+- 注意：微信游戏上线后，图片的域名需要配置微信白名单中才可以显示
+  ![alt text](image-13.png)
+
+# 8、如果遇到什么问题欢迎提交 issue
