@@ -1,0 +1,45 @@
+{
+  "__version__": "1.0.4",
+  "builder": {
+    "common": {
+      "buildPath": "project://build",
+      "outputName": "wechatgame",
+      "mainBundleCompressionType": "subpackage",
+      "platform": "wechatgame",
+      "mainBundleIsRemote": false,
+      "buildStageGroup": {
+        "build": [
+          "run"
+        ]
+      },
+      "wasmCompressionMode": "",
+      "startSceneAssetBundle": false,
+      "debug": false,
+      "useBuiltinServer": false,
+      "bundleConfigs": []
+    },
+    "taskOptionsMap": {
+      "1749634479280": {
+        "orientation": "landscapeRight",
+        "appid": "wx461c6ea3ebc8474a",
+        "buildOpenDataContextTemplate": false,
+        "separateEngine": true,
+        "highPerformanceMode": true,
+        "__version__": "1.0.4",
+        "wasmSubpackage": false
+      }
+    },
+    "__version__": "1.3.9",
+    "options": {
+      "wechatgame": {
+        "orientation": "landscapeRight",
+        "appid": "wx461c6ea3ebc8474a",
+        "buildOpenDataContextTemplate": false,
+        "separateEngine": true,
+        "highPerformanceMode": true,
+        "__version__": "1.0.4",
+        "wasmSubpackage": false
+      }
+    }
+  }
+}

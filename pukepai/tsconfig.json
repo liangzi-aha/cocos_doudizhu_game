@@ -1,0 +1,13 @@
+{
+  /* Base configuration. Do not edit this field. */
+  "extends": "./temp/tsconfig.cocos.json",
+  /* Add your custom configuration here. */
+  "compilerOptions": {
+    "strict": false,
+    "target": "es2017", // 编译之后的js语法等级      
+    "lib": [
+      "ES2017",
+      "dom"
+    ], // 指定 TypeScript 编译器应该包含哪些库文件（.d.ts 文件）。默认情况下，TypeScript 编译器会包含所有 DOM 和核心库文件
+  },
+}

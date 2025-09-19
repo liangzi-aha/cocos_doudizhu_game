@@ -1,0 +1,11 @@
+{
+  "name": "pukepai",
+  "uuid": "e29f1a98-ebe1-469a-8a00-ad6a350ea8d8",
+  "creator": {
+    "version": "3.8.5"
+  },
+  "scripts": {
+    "build:dev": "npx cross-env NODE_ENV=development cc-build",
+    "build:prod": " npx cross-env NODE_ENV=production cc-build"
+  }
+}

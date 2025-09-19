@@ -1,0 +1,11 @@
+{
+  "__version__": "1.0.1",
+  "preview": {
+    "current": {
+      "platform": "gameView"
+    }
+  },
+  "general": {
+    "start_scene": "current_scene"
+  }
+}
